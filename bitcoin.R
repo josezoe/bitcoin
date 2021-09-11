@@ -94,6 +94,8 @@ input_ts.arima
 bitforc=forecast::forecast(input_ts.arima,h=14)
 bitforc
 summary(bitforc)
+
+# UsingHotwinters 
 bitforchw=forecast::forecast(input_ts.hw,h=14)
 summary(bitforchw)
 
